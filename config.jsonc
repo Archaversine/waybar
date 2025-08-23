@@ -1,6 +1,6 @@
 {
     "layer": "top",
-    "modules-left": ["network", "wireplumber", "hyprland/workspaces"],
+    "modules-left": ["custom/nixosmenu", "network", "wireplumber", "hyprland/workspaces"],
     "modules-center": ["hyprland/window"],
     "modules-right": ["temperature", "cpu", "memory", "battery", "clock"],
     "clock": {
@@ -48,5 +48,10 @@
         "format-disconnected": "",
         "max-length": 50,
         "on-click": "nm-connection-editor",
-    }
+    },
+    "custom/nixosmenu": {
+        "format": "󱄅",
+        "tooltip-format": "NixOS",
+        "on-click": "rofi -show drun",
+    },
 }

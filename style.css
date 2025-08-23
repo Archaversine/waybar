@@ -7,8 +7,22 @@ window#waybar {
     font-weight: 400;
 }
 
+#custom-nixosmenu {
+    font-size: 22px;
+    margin-right: 5px;
+    padding-left: 0.375em;
+    padding-right: 0.6em;
+    background: rgba(60, 91, 111, 0.5);
+    transition: all 0.25s;
+    border-radius: 4px;
+}
+
+#clock {
+    margin-right: 0px;
+}
+
 tooltip {
-    background: rgba(43, 48, 59, 0.5);
+    background: rgba(23, 28, 39, 0.8);
     border: 1px solid rgba(100, 114, 125, 0.5);
 }
 
@@ -27,8 +41,11 @@ tooltip label {
     border-bottom: 5px solid transparent;
     border-radius: 0;
     margin-left: 5px;
-    margin-right: 5px;
     border-radius: 4px;
+}
+
+#network, #wireplumber, #workspaces button, #temperature, #cpu, #memory, #battery {
+    margin-right: 5px;
 }
 
 #wireplumber:hover, #workspaces button:hover, #clock:hover {
@@ -38,6 +55,15 @@ tooltip label {
     background: rgb(60, 91, 111);
     border: none;
     border-top: 5px solid transparent;
+    border-bottom: 5px solid white;
+}
+
+#custom-nixosmenu:hover {
+    box-shadow: inherit;
+    text-shadow: inherit;
+
+    background: rgb(60, 91, 111);
+    border: none;
     border-bottom: 5px solid white;
 }
 
