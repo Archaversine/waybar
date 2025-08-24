@@ -47,12 +47,12 @@
         "format": "",
         "format-disconnected": "",
         "max-length": 50,
-        "on-click": "nm-connection-editor",
+        "on-click": "/home/archaversine/.nix-profile/bin/nm-connection-editor",
     },
     "custom/nixosmenu": {
         "format": "󱄅",
         "tooltip-format": "NixOS",
-        "on-click": "rofi -show drun",
+        "on-click": "/home/archaversine/.nix-profile/bin/rofi -show drun",
     },
     "custom/haskellmenu": {
         "format": "",
