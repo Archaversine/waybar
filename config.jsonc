@@ -47,16 +47,16 @@
         "format": "",
         "format-disconnected": "",
         "max-length": 50,
-        "on-click": "/home/archaversine/.nix-profile/bin/nm-connection-editor",
+        "on-click": "nm-connection-editor",
     },
     "custom/nixosmenu": {
         "format": "󱄅",
         "tooltip-format": "NixOS",
-        "on-click": "/home/archaversine/.nix-profile/bin/rofi -show drun",
+        "on-click": "rofi -show drun",
     },
     "custom/haskellmenu": {
         "format": "",
         "tooltip-format": "Haskell",
-        "on-click": "/home/archaversine/.nix-profile/bin/ghostty -e 'echo Launching Haskell...; /run/current-system/sw/bin/nix-shell -p ghc --command \"clear; ghci\"'",
+        "on-click": "ghostty -e 'echo Launching Haskell...; /run/current-system/sw/bin/nix-shell -p ghc --command \"clear; ghci\"'",
     },
 }
