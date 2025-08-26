@@ -41,9 +41,9 @@
     },
     "network": {
         "format-wifi": "  {essid}",
-        "tooltip-format-wifi": "{signalStrength}%  {bandwidthUpBits}  {bandwidthDownBits}",
+        "tooltip-format-wifi": "{signalStrength}%    {bandwidthUpBits}    {bandwidthDownBits}",
         "format-ethernet": " ",
-        "tooltip-format-ethernet": " {bandwidthUpBits}  {bandwidthDownBits}",
+        "tooltip-format-ethernet": "   {bandwidthUpBits}    {bandwidthDownBits}",
         "format": "",
         "format-disconnected": "",
         "max-length": 50,
