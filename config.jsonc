@@ -57,6 +57,6 @@
     "custom/haskellmenu": {
         "format": "",
         "tooltip-format": "Haskell",
-        "on-click": "ghostty -e 'echo Launching Haskell...; /run/current-system/sw/bin/nix-shell -p ghc --command \"clear; ghci\"'",
+        "on-click": "ghostty -e 'echo Launching Haskell...; cached-nix-shell -p ghc --command \"clear; ghci\"'",
     },
 }
